@@ -1,12 +1,69 @@
 {
   "package": {
-    "productName": "WeRead",
+    "productName": "Github",
     "version": "1.0.0"
   },
   "tauri": {
     "windows": [
       {
-        "url": "https://weread.qq.com/",
+        "url": "https://github.com/",
+        "transparent": true,
+        "fullscreen": false,
+        "width": 1200,
+        "height": 780,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    }
+  },
+  "build": {
+    "devPath": "../dist",
+    "distDir": "../dist",
+    "beforeBuildCommand": "",
+    "beforeDevCommand": ""
+  }
+  
+  "package": {
+    "productName": "UNUD",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "url": "https://www.unud.ac.id/",
+        "transparent": true,
+        "fullscreen": false,
+        "width": 1200,
+        "height": 780,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    }
+  },
+  "build": {
+    "devPath": "../dist",
+    "distDir": "../dist",
+    "beforeBuildCommand": "",
+    "beforeDevCommand": ""
+  }
+  "package": {
+    "productName": "UNUD",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "url": "https://www.unud.ac.id/",
         "transparent": true,
         "fullscreen": false,
         "width": 1200,
